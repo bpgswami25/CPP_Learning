@@ -1,0 +1,11 @@
+/workspaces/CPP_Learning/build/CMakeFiles/edit_cache.dir
+/workspaces/CPP_Learning/build/CMakeFiles/rebuild_cache.dir
+/workspaces/CPP_Learning/build/BufferMemory/CMakeFiles/shared_memory_lib.dir
+/workspaces/CPP_Learning/build/BufferMemory/CMakeFiles/edit_cache.dir
+/workspaces/CPP_Learning/build/BufferMemory/CMakeFiles/rebuild_cache.dir
+/workspaces/CPP_Learning/build/MockApp/CMakeFiles/Mock.dir
+/workspaces/CPP_Learning/build/MockApp/CMakeFiles/edit_cache.dir
+/workspaces/CPP_Learning/build/MockApp/CMakeFiles/rebuild_cache.dir
+/workspaces/CPP_Learning/build/Data_Router_log/CMakeFiles/DataRouterApp.dir
+/workspaces/CPP_Learning/build/Data_Router_log/CMakeFiles/edit_cache.dir
+/workspaces/CPP_Learning/build/Data_Router_log/CMakeFiles/rebuild_cache.dir

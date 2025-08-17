@@ -126,7 +126,8 @@ namespace SharedMemoryWrapper {
 
         // Perform the read operation
         memcpy(buffer, static_cast<char*>(m_ptr) + offset, size);
-
+        // Clear the read portion of memory
+        memset(static_cast<char*>(m_ptr) + offset, 0, size);
         // Unlock the semaphore
         if (sem_post(&shm_data->semaphore) == -1) {
             std::cerr << "Failed to unlock semaphore. Possible deadlock." << std::endl;

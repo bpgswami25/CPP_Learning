@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Mock.dir/MockApp.cpp.o -o Mock  -Wl,-rpath,/workspaces/CPP_Learning/build/BufferMemory ../BufferMemory/libshared_memory_lib.so 
