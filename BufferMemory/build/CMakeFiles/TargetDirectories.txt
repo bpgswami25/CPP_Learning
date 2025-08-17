@@ -1,0 +1,3 @@
+/workspaces/CPP_Learning/BufferMemory/build/CMakeFiles/shared_memory_lib.dir
+/workspaces/CPP_Learning/BufferMemory/build/CMakeFiles/edit_cache.dir
+/workspaces/CPP_Learning/BufferMemory/build/CMakeFiles/rebuild_cache.dir

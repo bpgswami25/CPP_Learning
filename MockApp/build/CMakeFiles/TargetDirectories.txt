@@ -1,0 +1,3 @@
+/workspaces/CPP_Learning/MockApp/build/CMakeFiles/Mock.dir
+/workspaces/CPP_Learning/MockApp/build/CMakeFiles/edit_cache.dir
+/workspaces/CPP_Learning/MockApp/build/CMakeFiles/rebuild_cache.dir
