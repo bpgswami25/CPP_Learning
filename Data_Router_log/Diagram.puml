@@ -1,0 +1,44 @@
+@startuml
+
+class ConfigManager {
+    +loadConfig()
+    +getConfig()
+    -configData
+}
+
+class Logging {
+    +logInfo()
+    +logError()
+    +setOutput()
+    -output
+}
+
+class FileOut {
+    +write()
+    +close()
+    -filePath
+}
+
+class NetworkOut {
+    +send()
+    +connect()
+    -address
+}
+
+class TerminalOut {
+    +print()
+    +clear()
+}
+
+class Logout {
+    +logoutUser()
+    +getStatus()
+}
+
+Logging "1" *-- "1..*" FileOut : uses
+Logging "1" *-- "1..*" NetworkOut : uses
+Logging "1" *-- "1..*" TerminalOut : uses
+ConfigManager "1" <-- Logging : configures
+Logout "1" <-- Logging : logs
+
+@enduml
